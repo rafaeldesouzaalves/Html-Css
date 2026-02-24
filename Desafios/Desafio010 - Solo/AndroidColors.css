@@ -1,0 +1,94 @@
+@font-face{
+    font-family: idroid ;
+    src: url(idroid.otf);
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(BebasNeue-Regular.ttf);
+}
+header{
+   background: #00ff8c;
+   background: linear-gradient(180deg, rgba(0, 255, 140, 1) 0%, rgba(10, 173, 108, 1) 0%, rgba(0, 150, 108, 1) 48%, rgba(0, 48, 19, 1) 100%);
+   padding: 10px;
+
+}
+#tittle {
+    text-align: center;
+    font-family:"BebasNeue";
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 0px gray;
+   
+}
+#ali {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+     text-shadow: 2px 2px 0px gray;
+}
+#othertittle{
+    font-size: 36px;
+    font-family:"idroid";
+}
+.versao {
+    font-family: "idroid";
+}
+main {
+    min-width: 400;
+    max-width: 800;
+}
+.botoes {
+   border: 2px solid transparent;
+   padding: 10px 20px;
+
+   background-color: transparent;
+   color: white;
+   font-family:"BebasNeue";
+}
+#main{
+    background-color: white;
+    width: 1640px;
+    margin: 0 auto;
+    border: 1px;
+    padding: 30px;
+}
+#othertittle {
+    color: #2FA866;
+}
+.versao{
+    font-size: 30px;
+    color: #2FA866;
+}
+.first {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.0em;
+    font-size: 18px;
+}
+.prefot {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.extra {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+body{
+    background-color: #83E1Ad;
+}
+iframe{
+    border-color: #00ff8c;
+}
+ul{
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+.pe {
+    background-color: #063D1E;
+}
+#lest {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
