@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio do Astronauta</title>
+    <style>
+        body, html{
+            margin: 0;
+            padding: 0;
+        }
+
+        div#fora{
+            background-image: url(espaco.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div#dentro{
+            background-image: url(astronauta.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            width: 60vh;
+            height: 60vh;
+            max-width: 400px;
+        } 
+        @media (max-width: 600px) {
+        #dentro {
+            width: 80vw;
+            height: 50vh;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="fora">
+        <div id="dentro">
+
+        </div>
+    </div>
+</body>
+</html>
